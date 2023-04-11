@@ -22,7 +22,5 @@ module "vm_sku_policy" {
 
 ## Example
 
-terraform plan -var 'subscription_id=["b1db2d61-6edf-4e6f-b42f-286904728d93"]'
-
-Sign in using az login from Powershell is required to run the main.tf 
-
+terraform plan -var="subscription_id=b1db2d61-6edf-4e6f-b42f-286904728d93" 
+terraform apply
